@@ -1,0 +1,20 @@
+# MineSweeper
+MineSweeper/*
+!MineSweeper/Assets
+
+MineSweeper/Assets/*
+!MineSweeper/Assets/Scripts
+!MineSweeper/Assets/Scenes
+!MineSweeper/Assets/Prefabs
+!MineSweeper/Assets/Pictures
+
+MineSweeper/Assets/Scripts/*
+MineSweeper/Assets/Scenes/*
+MineSweeper/Assets/Prefabs/*
+MineSweeper/Assets/Pictures/*
+
+!MineSweeper/Assets/Scripts/*.cs
+!MineSweeper/Assets/Scenes/*.unity
+!MineSweeper/Assets/Prefabs/*.prefab
+!MineSweeper/Assets/Pictures/*.svg
+!MineSweeper/Assets/Pictures/*.png
