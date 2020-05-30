@@ -92,8 +92,7 @@ public class GridArray<GridObject>{
     public void SetGridObject(int row, int col, GridObject gridObject){
         if (row >= 0 && col >= 0 && row < height && col < width){
             grid[row, col] = gridObject;
-            if (OnGridObjectChanged != null)
-                OnGridObjectChanged(this, new OnGridObjectChangedEventArgs{row=row, col=col});
+            TriggerGridObjectChanged(row, col);
         }
     }
     public void SetGridObject(Vector3 worldPosition, GridObject gridObject){

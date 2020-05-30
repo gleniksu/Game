@@ -9,8 +9,8 @@ public class MineSweeperGameHandler : MonoBehaviour{
 
     // Start is called before the first frame update
     void Start(){
-        int row = 8;
-        int col = 12;
+        int row = 4;
+        int col = 6;
         float cellSize = 3f;
         Vector3 origin = new Vector3(-col/2f*cellSize, -row/2f*cellSize);
 
@@ -20,7 +20,6 @@ public class MineSweeperGameHandler : MonoBehaviour{
 
     /* TODO */
     // Game logic
-    
     // Update is called once per frame
     void Update(){
         if (Input.GetMouseButtonUp(1) && Input.GetMouseButtonUp(0)){
